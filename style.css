@@ -94,3 +94,9 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
+@media(max-width: 568px){
+    .image1, .image2, .image3, .image4{
+        background-attachment: scroll;
+    }
+}
